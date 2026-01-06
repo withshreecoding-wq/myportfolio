@@ -1,4 +1,5 @@
 {
+  "homepage": "https://withshreecoding-wq.github.io/my-portfolio",
   "name": "portofolio-v5",
   "private": true,
   "version": "0.0.0",
@@ -6,6 +7,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "deploy": "gh-pages -d dist",
     "lint": "eslint .",
     "preview": "vite preview"
   },
