@@ -71,6 +71,7 @@ function App() {
     <BrowserRouter basename="/my-portfolio/">
       <Routes>
         <Route path="/" element={<LandingPage showWelcome={showWelcome} setShowWelcome={setShowWelcome} />} />
+        <Route path="/about" element={<About />} />
         <Route path="/project/:id" element={<ProjectPageLayout />} />
       </Routes>
     </BrowserRouter>
