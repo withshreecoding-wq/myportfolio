@@ -178,7 +178,7 @@ const Home = () => {
       {/* Full Background GIF */}
       <div className="absolute inset-0 z-0">
         <img
-          src="/glow.gif"
+          src={`${import.meta.env.BASE_URL}glow.gif`}
           alt="Background Animation"
           className="w-full h-full object-cover opacity-10"
         />
