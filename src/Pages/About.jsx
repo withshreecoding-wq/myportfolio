@@ -53,7 +53,7 @@ const ProfileImage = memo(() => (
           <div className="absolute inset-0 bg-gradient-to-t from-purple-500/20 via-transparent to-blue-500/20 z-10 opacity-0 group-hover:opacity-100 transition-opacity duration-700 hidden sm:block" />
 
           <img
-            src="/img.jpg"
+            src={`${import.meta.env.BASE_URL}img.jpg`}
             alt="Profile"
             className="w-full h-full object-cover transition-all duration-700 group-hover:scale-110 group-hover:rotate-2"
             loading="lazy"
@@ -231,14 +231,15 @@ const AboutPage = () => {
             >
               I am a frontend developer with a strong focus on building scalable, high-quality web interfaces. I specialize in translating design concepts into responsive, accessible, and performant user experiences using modern frontend technologies.
 
-I am committed to writing clean, maintainable code and following best practices to ensure consistency and long-term reliability. With a detail-oriented approach and a problem-solving mindset, I collaborate effectively with designers and backend teams to deliver polished digital products.
+              I am committed to writing clean, maintainable code and following best practices to ensure consistency and long-term reliability. With a detail-oriented approach and a problem-solving mindset, I collaborate effectively with designers and backend teams to deliver polished digital products.
 
-I continuously stay current with evolving web standards and frameworks, striving to create interfaces that are both visually refined and technically robust.
+              I continuously stay current with evolving web standards and frameworks, striving to create interfaces that are both visually refined and technically robust.
             </p>
 
             <div className="flex flex-col lg:flex-row items-center lg:items-start gap-4 lg:gap-4 lg:px-0 w-full">
               <a
-                href=""
+                href={`${import.meta.env.BASE_URL}dhanshreecv.pdf`}
+                download="dhanshreecv.pdf"
                 className="w-full lg:w-auto"
               >
                 <button
